@@ -140,7 +140,7 @@ main>button:focus{
 .show{
   transform: translate(-50%,-50%) scale(1) !important;
 }
-@media (min-width:450px){
+@media (max-width:450px){
   main button{
     width:100px;
     height:100px;
