@@ -42,7 +42,7 @@ h1{
  margin:15px 25px; 
  background-color: var(--light);
  color:var(--dark);
- font-family: Cabin,sans-serif
+ font-family: Cabin,sans-serif;
  font-weight: bolder;
  font-size: 40px;
  border-radius: 15px;
@@ -139,4 +139,18 @@ main>button:focus{
 
 .show{
   transform: translate(-50%,-50%) scale(1) !important;
+}
+@media (min-width:450px){
+  main button{
+    width:100px;
+    height:100px;
+    font-size: 4rem;
+  }
+  #button-div{
+    display:flex;
+    flex-direction: column;
+  }
+  #button-div button{
+    margin:auto auto 20px auto;
+  }
 }
